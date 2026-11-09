@@ -134,42 +134,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global automated threat detection and response market—spanning Endpoint Detection and Response (EDR) and Extended Detection and Response (XDR)—is estimated at approximately **$17B to $20B+** (with EDR valued at ~$6.5B growing at ~20% CAGR and XDR scaling from ~$11B towards $38B+ at a 28% CAGR). The market is **moderately concentrated among top-tier platform giants** (such as Microsoft, CrowdStrike, and Palo Alto Networks) while remaining **fragmented across specialized niches** (identity threat detection, cloud workload protection, and regional managed detection services).
+
 ## SaaS/Hosted Platforms
 
-- **[Druva Automated Threat Detection](https://www.druva.com/)**  
-  Backup-native threat detection combining AI/ML data anomaly monitoring, IOC signature scanning (Threat Watch), and behavioral/forensic ransomware validation to pinpoint clean recovery points with ~98% false-positive reduction [citation:6][citation:11].
-
-- **[CrowdStrike Falcon](https://www.crowdstrike.com/)**  
-  Cloud-native endpoint protection with behavioral AI, threat graph correlation, and automated response across endpoints, workloads, and identities.
-
-- **[SentinelOne Singularity](https://www.sentinelone.com/)**  
-  Autonomous endpoint protection with static and behavioral AI models, Storyline attack visualization, and automated remediation.
-
-- **[Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint)**  
-  Integrated EDR with behavioral blocking, attack surface reduction, automated investigation, and remediation built into the Microsoft 365 ecosystem.
-
-- **[Trend Micro Vision One](https://www.trendmicro.com/)**  
-  XDR platform correlating endpoint, email, network, and cloud telemetry with AI-powered detection and automated response workflows.
-
-- **[Sophos Intercept X](https://www.sophos.com/)**  
-  Endpoint protection with deep learning malware detection, anti-ransomware behavioral blocking, and automated incident response.
-
-- **[Carbon Black Cloud](https://www.broadcom.com/products/software/security/carbon-black)**  
-  VMware/Broadcom EDR with behavioral analytics, threat hunting, and automated response across endpoints and workloads.
-
-- **[Palo Alto Cortex XDR](https://www.paloaltonetworks.com/cortex)**  
-  Extended detection and response integrating endpoint, network, cloud, and identity data with behavioral analytics and automated playbooks.
-
-- **[Fortinet FortiEDR](https://www.fortinet.com/)**  
-  EDR with pre-execution and post-execution behavioral detection, automated threat containment, and integration with Fortinet Security Fabric.
-
-- **[Check Point Harmony](https://www.checkpoint.com/harmony/)**  
-  Unified endpoint, mobile, and email security with AI-powered threat detection and automated response across the Check Point ecosystem.
+| Company Valuation / Market Cap | Product | Description | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **~$3.95T** (Public: MSFT) | [Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint) | Integrated EDR with behavioral blocking, attack surface reduction, automated investigation, and remediation built into the Microsoft 365 ecosystem. | **$3.00/user/month** (Plan 1) / **$5.20/user/month** (Plan 2 standalone) / **$12.00/user/month** (E5 Security Add-on) | **30-day free trial**; capped at **25 user licenses** with full Defender for Endpoint / XDR investigation capabilities. |
+| **~$1.55T** (Public: AVGO) | [Carbon Black Cloud](https://www.broadcom.com/products/software/security/carbon-black) | VMware/Broadcom EDR with behavioral analytics, threat hunting, and automated response across endpoints and workloads. | **$30.00/endpoint/year** (Endpoint Standard benchmark; Advanced at ~$45.00/endpoint/year) | **30-day proof-of-concept / evaluation**; strictly capped at **100 sensors/agents** with standard cloud-tenant retention. |
+| **~$250B** (Public: PANW) | [Palo Alto Cortex XDR](https://www.paloaltonetworks.com/cortex) | Extended detection and response integrating endpoint, network, cloud, and identity data with behavioral analytics and automated playbooks. | **$45.00/endpoint/year** (Cortex XDR Prevent entry tier benchmark / ~$68.00–$84.00/endpoint/year for Pro) | **30-day evaluation trial**; restricted to non-production lab tenants with ingestion throttled via Cortex Data Lake quotas. |
+| **~$235B** (Public: CRWD) | [CrowdStrike Falcon](https://www.crowdstrike.com/) | Cloud-native endpoint protection with behavioral AI, threat graph correlation, and automated response across endpoints, workloads, and identities. | **$7.99/device/month** ($95.88/device/year for Falcon Go; Falcon Pro at $14.99/device/month) | **15-day free trial**; no credit card required, covers core Falcon Prevent/Insight modules on up to 5 endpoints (plus 30-day money-back guarantee on Falcon Go). |
+| **~$90B** (Public: FTNT) | [Fortinet FortiEDR](https://www.fortinet.com/) | EDR with pre-execution and post-execution behavioral detection, automated threat containment, and integration with Fortinet Security Fabric. | **~$54.60/endpoint/year** (~$164.00/endpoint for 3-year term license on FortiEndpoint EDR Essentials) | **30-day evaluation trial**; strictly limited to **1 trial license per FortiCloud account** for non-production lab testing (no official 24/7 support or production SLAs). |
+| **~$15B** (Public: CHKP) | [Check Point Harmony](https://www.checkpoint.com/harmony/) | Unified endpoint, mobile, and email security with AI-powered threat detection and automated response across the Check Point ecosystem. | **$20.99/endpoint/year** (Harmony Endpoint Prevent; Advanced at $43.99/endpoint/year) | **30-day free trial** via Check Point Infinity Portal; full feature evaluation without credit card, inspection terminates upon trial expiration. |
+| **~$7.5B** (Public: S) | [SentinelOne Singularity](https://www.sentinelone.com/) | Autonomous endpoint protection with static and behavioral AI models, Storyline attack visualization, and automated remediation. | **$69.99/endpoint/year** (Singularity Core; Singularity Complete at $179.99/endpoint/year for 5–100 endpoints) | **30-day evaluation trial**; enterprise POC request required (no permanent free tier), telemetry history capped at 14 days of EDR retention. |
+| **~$5.2B** (Public: 4704.T) | [Trend Micro Vision One](https://www.trendmicro.com/) | XDR platform correlating endpoint, email, network, and cloud telemetry with AI-powered detection and automated response workflows. | **$39.89/device/year** (Endpoint Security Essentials renewal baseline; mid-market benchmarks ~$25–$45/endpoint/year) | **30-day free trial**; no credit card required, provides evaluation sensors for endpoints and mail with outbound inspection restrictions. |
+| **~$3.9B** (Private: Thoma Bravo, ~$1B Rev) | [Sophos Intercept X](https://www.sophos.com/) | Endpoint protection with deep learning malware detection, anti-ransomware behavioral blocking, and automated incident response. | **$55.00/user/year** (Intercept X Advanced starting baseline; XDR tiers starting ~$100.00/user/year) | **30-day free trial** hosted via Sophos Central console; full agent protection testing on user endpoints/servers without permanent free tier. |
+| **~$2.0B** (Private, ~$200M+ ARR) | [Druva Automated Threat Detection](https://www.druva.com/) | Backup-native threat detection combining AI/ML data anomaly monitoring, IOC signature scanning (Threat Watch), and behavioral/forensic ransomware validation. | **$8.00/user/month** (Druva Data Resiliency Cloud starting tier with bundled MDDR anomaly detection) | **30-day free trial**; instant onboarding, no credit card required, covers sample enterprise backup workloads and Threat Watch scan setup. |
 
 ## Open-Source GitHub Projects
 

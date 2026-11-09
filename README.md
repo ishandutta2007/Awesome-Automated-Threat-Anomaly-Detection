@@ -117,3 +117,5 @@ The Springer chapter describes an integrated open-source endpoint security frame
 
 
 If you paste your current `README.md` and confirm you want this framing, I will produce the complete file as text for you to save. I will not present Druva MDDR as a standalone SKU, cite Cortex XDR's outlier as a standard rate, or fabricate star counts for the open-source stack.
+# Awesome-Automated-Threat-Anomaly-Detection
+

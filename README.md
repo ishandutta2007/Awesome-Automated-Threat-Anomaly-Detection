@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection?style=flat-square&logo=github" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Automated-Threat-Anomaly-Detection?style=flat-square" alt="License" /></a>
@@ -80,81 +80,81 @@ The table below lists industry-leading commercial threat detection and automated
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore the top open-source threat detection, anomaly detection, behavioral hunting, and forensic frameworks. Each repository includes a real-time star badge linking directly to its stargazers page, **sorted in descending order by GitHub stars**.
+Explore the top open-source threat detection, anomaly detection, behavioral hunting, and forensic frameworks. Each repository includes a real-time Stars_Badge linking directly to its stargazers page, **sorted in descending order by GitHub_Stars**.
 
-* 🔭 [**osquery**](https://github.com/osquery/osquery) [![GitHub stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)  
+* 🔭 [**osquery**](https://github.com/osquery/osquery) [![GitHub_Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&color=white)](https://github.com/osquery/osquery/stargazers)  
   SQL-powered operating system instrumentation, monitoring, and analytics. Enables querying endpoint process states, sockets, loaded drivers, and file hashes as relational tables across Linux, macOS, and Windows.
 
-* 🛡️ [**Wazuh**](https://github.com/wazuh/wazuh) [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
+* 🛡️ [**Wazuh**](https://github.com/wazuh/wazuh) [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
   Unified open-source XDR and SIEM platform featuring host-based endpoint agents, file integrity monitoring (FIM), vulnerability detection, log analysis, and active automated response against security incidents.
 
-* 🧪 [**Atomic Red Team**](https://github.com/redcanaryco/atomic-red-team) [![GitHub stars](https://img.shields.io/github/stars/redcanaryco/atomic-red-team?style=social&color=white)](https://github.com/redcanaryco/atomic-red-team/stargazers)  
+* 🧪 [**Atomic Red Team**](https://github.com/redcanaryco/atomic-red-team) [![GitHub_Stars](https://img.shields.io/github/stars/redcanaryco/atomic-red-team?style=social&color=white)](https://github.com/redcanaryco/atomic-red-team/stargazers)  
   Library of simple, highly portable, and automated detection tests mapped directly to the MITRE ATT&CK framework, allowing defenders to rigorously test and calibrate detection rules.
 
-* ⚔️ [**Sliver**](https://github.com/BishopFox/sliver) [![GitHub stars](https://img.shields.io/github/stars/BishopFox/sliver?style=social&color=white)](https://github.com/BishopFox/sliver/stargazers)  
+* ⚔️ [**Sliver**](https://github.com/BishopFox/sliver) [![GitHub_Stars](https://img.shields.io/github/stars/BishopFox/sliver?style=social&color=white)](https://github.com/BishopFox/sliver/stargazers)  
   Open-source cross-platform adversary emulation and red-team orchestration framework used by security researchers to simulate advanced persistence mechanisms and train anomaly detection engines.
 
-* 📜 [**Sigma**](https://github.com/SigmaHQ/sigma) [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
+* 📜 [**Sigma**](https://github.com/SigmaHQ/sigma) [![GitHub_Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
   The industry-standard Generic Signature Format for SIEM and log systems. Allows detection engineers to write vendor-agnostic detection rules that compile directly to Splunk, Elastic, QRadar, and Wazuh queries.
 
-* 🦅 [**Falco**](https://github.com/falcosecurity/falco) [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)  
+* 🦅 [**Falco**](https://github.com/falcosecurity/falco) [![GitHub_Stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)  
   De facto cloud-native runtime security engine. Uses Linux eBPF kernel probes to detect abnormal behavioral activity, unexpected process spawns, and privilege escalation in containers and Kubernetes clusters.
 
-* 🚦 [**Maltrail**](https://github.com/stamparm/maltrail) [![GitHub stars](https://img.shields.io/github/stars/stamparm/maltrail?style=social&color=white)](https://github.com/stamparm/maltrail/stargazers)  
+* 🚦 [**Maltrail**](https://github.com/stamparm/maltrail) [![GitHub_Stars](https://img.shields.io/github/stars/stamparm/maltrail?style=social&color=white)](https://github.com/stamparm/maltrail/stargazers)  
   Lightweight and automated malicious traffic detection system with sensor-server architecture. Matches real-time network requests against public threat lists, DNS sinkholes, and heuristic anomaly indicators.
 
-* 🌐 [**Zeek**](https://github.com/zeek/zeek) [![GitHub stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
+* 🌐 [**Zeek**](https://github.com/zeek/zeek) [![GitHub_Stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers)  
   World-class network security analysis engine that converts raw network traffic into structured, transaction-level connection logs and applies domain-specific scripting for protocol anomaly detection.
 
-* 📊 [**Graylog**](https://github.com/Graylog2/graylog2-server) [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
+* 📊 [**Graylog**](https://github.com/Graylog2/graylog2-server) [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
   Centralized log aggregation and security event correlation platform featuring 50+ pre-built MITRE ATT&CK security scenarios, UEBA anomaly models, and fast alerting for security operations teams.
 
-* 🤖 [**AiSOC**](https://github.com/beenuar/AiSOC) [![GitHub stars](https://img.shields.io/github/stars/beenuar/AiSOC?style=social&color=white)](https://github.com/beenuar/AiSOC/stargazers)  
+* 🤖 [**AiSOC**](https://github.com/beenuar/AiSOC) [![GitHub_Stars](https://img.shields.io/github/stars/beenuar/AiSOC?style=social&color=white)](https://github.com/beenuar/AiSOC/stargazers)  
   Open-source AI-native Security Operations Center platform with multi-agent triage, ML alert fusion (LightGBM, Isolation Forest), automated UEBA, threat intel polling, and an MCP server for AI IDEs.
 
-* 📡 [**Suricata**](https://github.com/OISF/suricata) [![GitHub stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
+* 📡 [**Suricata**](https://github.com/OISF/suricata) [![GitHub_Stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers)  
   High-performance Network IDS, IPS, and network security monitoring engine with multi-threading, deep packet inspection, and native support for automated anomaly detection rules.
 
-* 🤝 [**MISP**](https://github.com/MISP/MISP) [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+* 🤝 [**MISP**](https://github.com/MISP/MISP) [![GitHub_Stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
   Open-source Threat Intelligence Platform (TIP) for sharing, storing, and correlating indicators of compromise (IOCs), financial fraud indicators, and threat actor behavioral TTPs.
 
-* 🔎 [**GRR Rapid Response**](https://github.com/google/grr) [![GitHub stars](https://img.shields.io/github/stars/google/grr?style=social&color=white)](https://github.com/google/grr/stargazers)  
+* 🔎 [**GRR Rapid Response**](https://github.com/google/grr) [![GitHub_Stars](https://img.shields.io/github/stars/google/grr?style=social&color=white)](https://github.com/google/grr/stargazers)  
   Enterprise remote live forensics infrastructure by Google. Facilitates rapid, remote host analysis, memory forensics, and deep automated evidence acquisition on thousands of endpoints simultaneously.
 
-* 🔒 [**OSSEC**](https://github.com/ossec/ossec-hids) [![GitHub stars](https://img.shields.io/github/stars/ossec/ossec-hids?style=social&color=white)](https://github.com/ossec/ossec-hids/stargazers)  
+* 🔒 [**OSSEC**](https://github.com/ossec/ossec-hids) [![GitHub_Stars](https://img.shields.io/github/stars/ossec/ossec-hids?style=social&color=white)](https://github.com/ossec/ossec-hids/stargazers)  
   Host-based intrusion detection system (HIDS) performing log analysis, file integrity verification, Windows registry monitoring, rootkit detection, and real-time active response.
 
-* 🧬 [**YARA Rules**](https://github.com/Yara-Rules/rules) [![GitHub stars](https://img.shields.io/github/stars/Yara-Rules/rules?style=social&color=white)](https://github.com/Yara-Rules/rules/stargazers)  
+* 🧬 [**YARA Rules**](https://github.com/Yara-Rules/rules) [![GitHub_Stars](https://img.shields.io/github/stars/Yara-Rules/rules?style=social&color=white)](https://github.com/Yara-Rules/rules/stargazers)  
   Comprehensive community-maintained repository of YARA rules for detecting malware families, suspicious PE packers, ransomware binaries, and anomalous byte sequences.
 
-* 🦖 [**Velociraptor**](https://github.com/Velocidex/velociraptor) [![GitHub stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers)  
+* 🦖 [**Velociraptor**](https://github.com/Velocidex/velociraptor) [![GitHub_Stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers)  
   Advanced digital forensics and incident response (DFIR) platform using VQL (Velociraptor Query Language) to perform automated endpoint hunting, artifact scraping, and anomaly triage across large fleets.
 
-* 🐝 [**TheHive**](https://github.com/TheHive-Project/TheHive) [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
+* 🐝 [**TheHive**](https://github.com/TheHive-Project/TheHive) [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
   Scalable Security Incident Response Platform (SIRP) tightly coupled with MISP and Cortex analyzers, designed for SOC teams to investigate, document, and remediate alerts rapidly.
 
-* 🦌 [**The Hunting ELK (HELK)**](https://github.com/Cyb3rWard0g/HELK) [![GitHub stars](https://img.shields.io/github/stars/Cyb3rWard0g/HELK)?style=social&color=white](https://github.com/Cyb3rWard0g/HELK/stargazers)  
+* 🦌 [**The Hunting ELK (HELK)**](https://github.com/Cyb3rWard0g/HELK) [![GitHub_Stars](https://img.shields.io/github/stars/Cyb3rWard0g/HELK)?style=social&color=white](https://github.com/Cyb3rWard0g/HELK/stargazers)  
   All-in-one hunting platform utilizing Elasticsearch, Logstash, Kibana, Kafka, and Apache Spark with native Graph and Machine Learning analytics for deep threat anomaly hunting.
 
-* 🧅 [**Security Onion**](https://github.com/Security-Onion-Solutions/security-onion) [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/security-onion?style=social&color=white)](https://github.com/Security-Onion-Solutions/security-onion/stargazers)  
+* 🧅 [**Security Onion**](https://github.com/Security-Onion-Solutions/security-onion) [![GitHub_Stars](https://img.shields.io/github/stars/Security-Onion-Solutions/security-onion?style=social&color=white)](https://github.com/Security-Onion-Solutions/security-onion/stargazers)  
   Comprehensive Linux distribution for threat hunting, enterprise security monitoring, and log analysis integrating Zeek, Suricata, Wazuh, and CyberChef out of the box.
 
-* 📐 [**Elastic Detection Rules**](https://github.com/elastic/detection-rules) [![GitHub stars](https://img.shields.io/github/stars/elastic/detection-rules?style=social&color=white)](https://github.com/elastic/detection-rules/stargazers)  
+* 📐 [**Elastic Detection Rules**](https://github.com/elastic/detection-rules) [![GitHub_Stars](https://img.shields.io/github/stars/elastic/detection-rules?style=social&color=white)](https://github.com/elastic/detection-rules/stargazers)  
   Rules used by Elastic Security for automated threat detection across Windows, Linux, macOS, AWS, GCP, and Azure, mapping alert triggers directly to ATT&CK tactics.
 
-* 🛡️ [**OpenEDR**](https://github.com/ComodoSecurity/openedr) [![GitHub stars](https://img.shields.io/github/stars/ComodoSecurity/openedr?style=social&color=white)](https://github.com/ComodoSecurity/openedr/stargazers)  
+* 🛡️ [**OpenEDR**](https://github.com/ComodoSecurity/openedr) [![GitHub_Stars](https://img.shields.io/github/stars/ComodoSecurity/openedr?style=social&color=white)](https://github.com/ComodoSecurity/openedr/stargazers)  
   Open-source endpoint detection and response telemetry engine providing deep low-level system event visibility with AI-assisted behavioral anomaly analysis.
 
-* ⚡ [**Elkeid**](https://github.com/bytedance/Elkeid) [![GitHub stars](https://img.shields.io/github/stars/bytedance/Elkeid?style=social&color=white)](https://github.com/bytedance/Elkeid/stargazers)  
+* ⚡ [**Elkeid**](https://github.com/bytedance/Elkeid) [![GitHub_Stars](https://img.shields.io/github/stars/bytedance/Elkeid?style=social&color=white)](https://github.com/bytedance/Elkeid/stargazers)  
   Production-proven cloud workload protection and host security engine from ByteDance, handling real-time threat detection, kernel audit streams, and response across millions of Linux hosts and containers.
 
-* 📦 [**Malcolm**](https://github.com/cisagov/Malcolm) [![GitHub stars](https://img.shields.io/github/stars/cisagov/Malcolm?style=social&color=white)](https://github.com/cisagov/Malcolm/stargazers)  
+* 📦 [**Malcolm**](https://github.com/cisagov/Malcolm) [![GitHub_Stars](https://img.shields.io/github/stars/cisagov/Malcolm?style=social&color=white)](https://github.com/cisagov/Malcolm/stargazers)  
   Powerful, easily deployable network traffic analysis suite developed by CISA for full PCAP capture artifacts, Zeek logs, and Suricata alerts with automated anomaly dashboards.
 
-* 🎯 [**Whids**](https://github.com/0xrawsec/whids) [![GitHub stars](https://img.shields.io/github/stars/0xrawsec/whids?style=social&color=white)](https://github.com/0xrawsec/whids/stargazers)  
+* 🎯 [**Whids**](https://github.com/0xrawsec/whids) [![GitHub_Stars](https://img.shields.io/github/stars/0xrawsec/whids?style=social&color=white)](https://github.com/0xrawsec/whids/stargazers)  
   Open-source EDR and host-based IDS for Windows endpoints using ETW tracing, Sigma detection rules, and automated artifact dumping upon anomaly detection.
 
-* 🧠 [**OpenUBA**](https://github.com/GACWR/OpenUBA) [![GitHub stars](https://img.shields.io/github/stars/GACWR/OpenUBA?style=social&color=white)](https://github.com/GACWR/OpenUBA/stargazers)  
+* 🧠 [**OpenUBA**](https://github.com/GACWR/OpenUBA) [![GitHub_Stars](https://img.shields.io/github/stars/GACWR/OpenUBA?style=social&color=white)](https://github.com/GACWR/OpenUBA/stargazers)  
   Flexible open-source User & Entity Behavior Analytics framework for cybersecurity data science, featuring visual pipeline rules and integrations with TensorFlow and Elasticsearch.
 
 ---

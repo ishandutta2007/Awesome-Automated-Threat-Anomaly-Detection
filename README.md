@@ -119,3 +119,128 @@ The Springer chapter describes an integrated open-source endpoint security frame
 If you paste your current `README.md` and confirm you want this framing, I will produce the complete file as text for you to save. I will not present Druva MDDR as a standalone SKU, cite Cortex XDR's outlier as a standard rate, or fabricate star counts for the open-source stack.
 # Awesome-Automated-Threat-Anomaly-Detection
 
+# Top Automated Threat & Anomaly Detection Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Endpoint Detection, Behavioral Analytics & Automated Threat Response*  
+**Last updated: March 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Automated Threat & Anomaly Detection**. These tools help security teams detect malicious activity, identify behavioral anomalies, and automate response—covering endpoint detection and response (EDR), extended detection and response (XDR), user and entity behavior analytics (UEBA), and network anomaly detection.
+
+**Examples** include Druva Automated Threat Detection, CrowdStrike Falcon, SentinelOne Singularity, Microsoft Defender for Endpoint, Trend Micro Vision One, Sophos Intercept X, Carbon Black Cloud, Palo Alto Cortex XDR, Fortinet FortiEDR, and Check Point Harmony (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted EDR, SIEM-integrated detection, UEBA frameworks, and network anomaly detection—ideal for SOC teams, security engineers, platform teams, and developers building transparent, vendor-neutral threat detection pipelines.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Druva Automated Threat Detection](https://www.druva.com/)**  
+  Backup-native threat detection combining AI/ML data anomaly monitoring, IOC signature scanning (Threat Watch), and behavioral/forensic ransomware validation to pinpoint clean recovery points with ~98% false-positive reduction [citation:6][citation:11].
+
+- **[CrowdStrike Falcon](https://www.crowdstrike.com/)**  
+  Cloud-native endpoint protection with behavioral AI, threat graph correlation, and automated response across endpoints, workloads, and identities.
+
+- **[SentinelOne Singularity](https://www.sentinelone.com/)**  
+  Autonomous endpoint protection with static and behavioral AI models, Storyline attack visualization, and automated remediation.
+
+- **[Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint)**  
+  Integrated EDR with behavioral blocking, attack surface reduction, automated investigation, and remediation built into the Microsoft 365 ecosystem.
+
+- **[Trend Micro Vision One](https://www.trendmicro.com/)**  
+  XDR platform correlating endpoint, email, network, and cloud telemetry with AI-powered detection and automated response workflows.
+
+- **[Sophos Intercept X](https://www.sophos.com/)**  
+  Endpoint protection with deep learning malware detection, anti-ransomware behavioral blocking, and automated incident response.
+
+- **[Carbon Black Cloud](https://www.broadcom.com/products/software/security/carbon-black)**  
+  VMware/Broadcom EDR with behavioral analytics, threat hunting, and automated response across endpoints and workloads.
+
+- **[Palo Alto Cortex XDR](https://www.paloaltonetworks.com/cortex)**  
+  Extended detection and response integrating endpoint, network, cloud, and identity data with behavioral analytics and automated playbooks.
+
+- **[Fortinet FortiEDR](https://www.fortinet.com/)**  
+  EDR with pre-execution and post-execution behavioral detection, automated threat containment, and integration with Fortinet Security Fabric.
+
+- **[Check Point Harmony](https://www.checkpoint.com/harmony/)**  
+  Unified endpoint, mobile, and email security with AI-powered threat detection and automated response across the Check Point ecosystem.
+
+## Open-Source GitHub Projects
+
+- **[Wazuh](https://github.com/wazuh/wazuh)**  
+  Open-source XDR and SIEM platform with agent-based host monitoring, file integrity monitoring, intrusion detection, and active response capabilities [citation:2][citation:9].
+
+- **[OpenEDR (Xcitium)](https://github.com/ComodoSecurity/openedr)**  
+  Open-source EDR platform providing base-security-event visibility across endpoints with AI-assisted threat detection and analysis [citation:2][citation:7].
+
+- **[TheHive](https://github.com/TheHive-Project/TheHive)**  
+  Scalable security incident response platform tightly integrated with MISP, designed for SOC and CSIRT teams to investigate and act on incidents swiftly [citation:2].
+
+- **[MISP](https://github.com/MISP/MISP)**  
+  Open-source threat intelligence and sharing platform for collecting, storing, and distributing indicators of compromise (IOCs) across security tools [citation:2].
+
+- **[OpenUBA](https://github.com/GACWR/OpenUBA)**  
+  Flexible UEBA framework for security analytics with a visual rule builder, community model hub, and integrations with TensorFlow, Keras, and Elasticsearch [citation:4][citation:9].
+
+- **[Elkeid](https://github.com/bytedance/Elkeid)**  
+  Open-source solution for host, container, Kubernetes, and serverless workload security with real-time threat detection and response [citation:2].
+
+- **[Whids](https://github.com/0xrawsec/whids)**  
+  EDR with artifact collection driven by detection rules, supporting Sigma and YARA for Windows endpoint monitoring [citation:2].
+
+- **[Rustinel](https://github.com/rustinel/rustinel)**  
+  Open-source endpoint detection engine for Windows and Linux using ETW, eBPF, Sigma, YARA, and IOC matching with ECS NDJSON alert output [citation:2].
+
+- **[Suricata](https://github.com/OISF/suricata)**  
+  High-performance network IDS/IPS with deep packet inspection, protocol anomaly detection, and real-time alerting for integration with SIEM stacks [citation:8][citation:14].
+
+- **[Zeek](https://github.com/zeek/zeek)**  
+  Network security monitor providing rich connection logs, protocol analysis, and behavioral anomaly detection for network traffic.
+
+- **[OSSEC](https://github.com/ossec/ossec-hids)**  
+  Host-based intrusion detection system with log analysis, file integrity checking, and active response for anomaly detection on servers [citation:7].
+
+- **[osquery](https://github.com/osquery/osquery)**  
+  SQL-powered endpoint visibility tool for querying system state and detecting anomalies across Windows, macOS, and Linux fleets [citation:7].
+
+- **[AiSOC](https://github.com/beenuar/AiSOC)**  
+  Open-source AI-native SOC platform with multi-agent reasoning, ML-based alert fusion (LightGBM, Isolation Forest), UEBA, threat intel polling, and SOAR automation .
+
+- **[Graylog](https://github.com/Graylog2/graylog2-server)**  
+  Open-source log management and SIEM platform with 50+ pre-built MITRE ATT&CK-aligned security scenarios, UEBA capabilities, and anomaly detection [citation:9].
+
+### Additional Strong Open-Source Options
+
+- **[Security Onion](https://github.com/Security-Onion-Solutions/security-onion)** for integrated intrusion detection, network security monitoring, and log analysis.
+- **[HELK](https://github.com/Cyb3rWard0g/HELK)** for hunting ELK stack with advanced analytics and threat hunting capabilities [citation:9].
+- **[Apache Spot](https://github.com/apache/spot)** (legacy) for network flow analytics and anomaly detection [citation:9].
+- **Sigma** rule repositories and **Atomic Red Team** for detection content and purple-team validation.
+- Many community **Sigma-to-SIEM conversion** tools and **YARA rule** collections for custom detection pipelines.
+
+**Frameworks for building custom systems**: Combine **Wazuh** for endpoint telemetry, **Suricata/Zeek** for network visibility, **OpenUBA** for behavioral analytics, and **TheHive + MISP** for incident response and threat intel correlation.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Threat detection tooling must be tuned to your environment; open-source solutions require dedicated engineering effort for rule development, tuning, and false-positive management [citation:3].
+- Self-hosted open-source security stacks require proper access control, log integrity protection, and regular updates to maintain detection efficacy.
+
+---
+
+**Made for SOC analysts, security engineers, platform teams, and detection engineers.**  
+Let's make threat detection more open, automated, and explainable.

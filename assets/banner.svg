@@ -136,38 +136,38 @@
     Automated Threat &amp; Anomaly
   </text>
   <text x="80" y="202" fill="url(#cyberCyan)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#subtleGlow)">
-    Detection Ecosystem 🛡️⚡
+    Detection Ecosystem
   </text>
 
   <!-- Subtitle -->
   <text x="82" y="246" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400">
-    Enterprise SaaS Platforms &bull; Open-Source EDR/XDR &bull; UEBA Behavioral Analytics &bull; Network IDS
+    Enterprise SaaS Platforms &#8226; Open-Source EDR/XDR &#8226; UEBA Behavioral Analytics &#8226; Network IDS
   </text>
 
   <!-- Dynamic Feature Badges / Pills in Foreground -->
   <g transform="translate(80, 286)">
     <!-- Pill 1: EDR & XDR -->
     <rect x="0" y="0" width="138" height="38" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1"/>
-    <text x="16" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ EDR / XDR</text>
+    <text x="16" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">EDR / XDR</text>
 
     <!-- Pill 2: Behavioral AI -->
     <rect x="150" y="0" width="158" height="38" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1"/>
-    <text x="166" y="24" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🧠 Behavioral AI</text>
+    <text x="166" y="24" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Behavioral AI</text>
 
     <!-- Pill 3: Anomaly Analytics -->
     <rect x="320" y="0" width="168" height="38" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1"/>
-    <text x="336" y="24" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📊 UEBA &amp; SIEM</text>
+    <text x="336" y="24" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">UEBA &amp; SIEM</text>
 
     <!-- Pill 4: Zero Trust -->
     <rect x="500" y="0" width="156" height="38" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#334155" stroke-width="1"/>
-    <text x="516" y="24" fill="#f43f5e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🎯 Incident SOAR</text>
+    <text x="516" y="24" fill="#f43f5e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Incident SOAR</text>
   </g>
 
   <!-- Bottom Accent Status Bar -->
   <g transform="translate(80, 360)">
     <line x1="0" y1="0" x2="680" y2="0" stroke="#334155" stroke-width="1"/>
     <text x="0" y="22" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500">
-      ⚡ MITRE ATT&amp;CK Mappings &nbsp;|&nbsp; 🔍 Live Telemetry Inspection &nbsp;|&nbsp; 🚀 100% Production-Grade Tools
+      MITRE ATT&amp;CK Mappings &#160;|&#160; Live Telemetry Inspection &#160;|&#160; 100% Production-Grade Tools
     </text>
   </g>
 </svg>
